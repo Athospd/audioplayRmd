@@ -1,19 +1,19 @@
-#' audioplayRmd
+#' Include audio
 #'
+#' Includes an audio player for rmarkdown and quarto.
+#' It is the knitr::include_graphics() for audio files.
 #'
+#' @param audio_path string with the path to the audio file (local or url)
+#' @param width width (see [htmlwidgets::createWidget])
+#' @param height height (see [htmlwidgets::createWidget])
+#' @param elementId elementId (see [htmlwidgets::createWidget])
 #' @import htmlwidgets
 #'
+#' @examples
+#' include_audio("https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav")
+#'
 #' @export
-audioplayRmd <- function(audio_path, width = NULL, height = NULL, elementId = NULL) {
-
-  # forward options using x
-  # if(!grepl("^http", audio_path)) {
-  #   url_prefix = "www"
-  #   audio_file_name = fs::path_file(audio_path)
-  #   audio_dir_path = fs::path_dir(audio_path)
-  #   audio_path = file.path(url_prefix, audio_file_name)
-  #   shiny::addResourcePath(url_prefix, audio_dir_path)
-  # }
+include_audio <- function(audio_path, width = NULL, height = NULL, elementId = NULL) {
 
   x = list(
     audio_path = audio_path

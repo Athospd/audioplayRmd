@@ -1,7 +1,6 @@
 ---
-title: "Audio Player in Rmd Test"
-output: html_document
-date: "2023-04-18"
+title: "Audio Player in Qmd Test"
+format: html
 ---
 
 ```{r}
