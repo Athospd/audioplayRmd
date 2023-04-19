@@ -1,9 +1,9 @@
 Package: audioplayRmd
-Title: Provides one function: include_audio()
+Title: Simple HTML Audio Player
 Version: 1.0.0
 Authors@R: 
     person("Athos", "Damiani", , "athos.damiani@gmail.com", role = c("aut", "cre"))
-Description: It provides include_audio() which is the knitr::include_graphics() for audio files.
+Description: It provides [include_audio()] which is the [knitr::include_graphics()] for audio files.
 License: MIT + file LICENSE
 Imports: 
     htmlwidgets

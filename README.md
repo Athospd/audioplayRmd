@@ -4,6 +4,9 @@
 # audioplayRmd
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/audioplayRmd)](https://CRAN.R-project.org/package=audioplayRmd)
 <!-- badges: end -->
 
 The goal of audioplayRmd is to provide the `include_audio()` function,
@@ -23,8 +26,8 @@ library(audioplayRmd)
 include_audio("https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav")
 ```
 
-<div class="audioplayRmd html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a24e82a1da1c1e4d20ac" style="width:1px;height:54px;"></div>
-<script type="application/json" data-for="htmlwidget-a24e82a1da1c1e4d20ac">{"x":{"audio_path":"https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav"},"evals":[],"jsHooks":[]}</script>
+<div class="audioplayRmd html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-05c25265037b070b8b9a" style="width:1px;height:54px;"></div>
+<script type="application/json" data-for="htmlwidget-05c25265037b070b8b9a">{"x":{"audio_path":"https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav"},"evals":[],"jsHooks":[]}</script>
 
 ![](inst/audioplayer_screenshot.png)
 

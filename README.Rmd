@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 # audioplayRmd
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/audioplayRmd)](https://CRAN.R-project.org/package=audioplayRmd)
 <!-- badges: end -->
 
 The goal of audioplayRmd is to provide the `include_audio()` function, the audio version of the `knitr::include_graphics`.
