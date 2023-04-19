@@ -1,0 +1,28 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-04-18"
+---
+
+```{r}
+library(audioplayRmd)
+```
+
+
+```{r}
+# audio from local (Not OK)
+audioplayRmd("D:/OneDrive/Documents/torchaudio/inst/tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav")
+```
+
+```{r}
+# audio from the web (OK)
+audioplayRmd("https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav")
+```
+
+```{r, eval=FALSE}
+# typing the following outside chunk
+![](https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav)
+```
+
+![](https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav)
+
