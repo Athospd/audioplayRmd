@@ -37,6 +37,8 @@ include_audio("https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav")
 
 ![](inst/audioplayer_screenshot.png)
 
+<audio id="audio-player" controls="" src="https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav"></audio>
+
 ## Comments
 
 - It should work for Rmarkdown, quarto and shiny.
